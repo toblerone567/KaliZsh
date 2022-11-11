@@ -1,0 +1,19 @@
+In Kubuntu from here on, in a terminal type sudo apt update, then sudo apt install zsh
+
+Type zsh to run zsh for the first time.
+
+First run, it will want to configure zsh. You can just hit 0 to exit and create a dummy .zshrc file. We'll replace it shortly.
+
+You should be at a zsh prompt. Type exit to return to bash.
+
+Now, copy your .zshrc file to /home/username/ and select overwrite when asked.
+
+Back in a terminal, type zsh again, and it will display the prompt like it does in Kali.
+
+If this looks good and you want to see this prompt (use zsh) every time you open the terminal, type chsh --shell /bin/zsh which will change your user's shell from bash to zsh.
+
+Now install the syntax-highlighting plugin, type sudo apt install zsh-syntax-highlighting and hit enter.
+
+Close the terminal and reopen it. It should should look like it does in Kali and syntax highlighting should be working now. (If not reboot and check again)
+
+Reboot for good measure.
